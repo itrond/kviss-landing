@@ -215,7 +215,7 @@ export default function Hero() {
           opacity: 0,
         }}>
           <span style={{ color: 'var(--yellow)', display: 'block', animation: 'glow-pulse 4s ease-in-out 1s infinite' }}>
-            Kvissly.
+            Kviss.
           </span>
         </h1>
 

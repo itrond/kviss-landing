@@ -35,7 +35,7 @@ export default function Navbar() {
           color: 'var(--yellow)',
           letterSpacing: '-0.5px',
         }}>
-          Kvissly
+          Kviss
         </span>
       </a>
 

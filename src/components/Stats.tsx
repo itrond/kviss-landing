@@ -115,7 +115,7 @@ export default function Stats() {
             margin: '0 auto',
             lineHeight: 1.65,
           }}>
-            Kvissly vokser for hver dag. Se selv hva du er en del av.
+            Kviss vokser for hver dag. Se selv hva du er en del av.
           </p>
         </div>
 

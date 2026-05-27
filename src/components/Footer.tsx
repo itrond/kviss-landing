@@ -22,7 +22,7 @@ export default function Footer() {
             color: 'var(--yellow)',
             letterSpacing: '-0.4px',
           }}>
-            Kvissly
+            Kviss
           </span>
           <span style={{
             fontFamily: 'var(--font-body)',
@@ -55,7 +55,7 @@ export default function Footer() {
           fontSize: '12px',
           color: 'var(--text-dim)',
         }}>
-          © {new Date().getFullYear()} Kvissly. Laget med ❤️ i Norge.
+          © {new Date().getFullYear()} Kviss. Laget med ❤️ i Norge.
         </div>
       </div>
     </footer>
