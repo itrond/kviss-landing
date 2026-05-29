@@ -100,16 +100,16 @@ export default function Privacy() {
 
         <Section title="Behandlingsansvarlig">
           <p style={s.p}>
-            Kviss er utviklet og driftet av Agitera AS. Har du spørsmål om
+            Kviss er utviklet og driftet av Trond Aarø. Har du spørsmål om
             personvern, ta kontakt på{' '}
-            <a href="mailto:firma@agitera.no" style={s.link}>firma@agitera.no</a>.
+            <a href="mailto:trond@itrond.net" style={s.link}>trond@itrond.net</a>.
           </p>
           <div style={s.contactBox}>
-            <p style={s.contactLabel}>Selskap</p>
-            <p style={s.contactValue}>Agitera AS</p>
+            <p style={s.contactLabel}>Kontaktperson</p>
+            <p style={s.contactValue}>Trond Aarø</p>
             <p style={{ ...s.contactLabel, marginTop: '16px' }}>E-post</p>
-            <a href="mailto:firma@agitera.no" style={{ ...s.contactValue, ...s.link }}>
-              firma@agitera.no
+            <a href="mailto:trond@itrond.net" style={{ ...s.contactValue, ...s.link }}>
+              trond@itrond.net
             </a>
           </div>
         </Section>
@@ -120,15 +120,14 @@ export default function Privacy() {
           </p>
           <p style={s.p}>
             <strong style={{ color: 'var(--text)' }}>Brukerprofil.</strong>{' '}
-            Når du starter appen, opprettes det en anonym brukerkonto via Supabase.
-            Du velger selv et kallenavn som lagres i denne kontoen. Vi samler ikke
-            inn navn, e-postadresse eller telefonnummer med mindre du oppgir det
-            frivillig.
+            Når du starter appen, opprettes det en anonym brukerkonto. Du velger
+            selv et kallenavn som lagres i denne kontoen. Vi samler ikke inn navn,
+            e-postadresse eller telefonnummer.
           </p>
           <p style={s.p}>
             <strong style={{ color: 'var(--text)' }}>Poengsummer og streak.</strong>{' '}
-            Resultatene dine lagres i vår database slik at du kan se historikk og
-            konkurransestilling. Daglige scores lagres også lokalt på enheten.
+            Resultatene dine lagres i vår database slik at du kan følge med på
+            fremgangen din. Daglige scores lagres også lokalt på enheten.
           </p>
           <p style={s.p}>
             <strong style={{ color: 'var(--text)' }}>Posisjon.</strong>{' '}
@@ -136,35 +135,11 @@ export default function Privacy() {
           </p>
         </Section>
 
-        <Section title="Push-varsler">
-          <p style={s.p}>
-            Hvis du godtar push-varsler, lagres en unik enhetstoken i vår database.
-            Tokenet brukes utelukkende til å sende deg daglige påminnelser om kvissen
-            og informasjon om nye innhold. Du kan når som helst trekke tilbake
-            tillatelsen i enhetens innstillinger, og tokenet slettes da automatisk.
-          </p>
-        </Section>
-
-        <Section title="Abonnement og kjøp">
-          <p style={s.p}>
-            Betalingsinformasjon håndteres av Apple App Store eller Google Play og
-            deles aldri med oss. Vi bruker RevenueCat til å verifisere abonnementsstatus.
-            RevenueCat mottar en anonym kjøper-ID og abonnementstype — ingen
-            kortdetaljer eller personlig identifikasjon.
-          </p>
-        </Section>
-
         <Section title="Deling av opplysninger">
           <p style={s.p}>
             Vi selger ikke og deler ikke personopplysningene dine med tredjeparter,
-            med unntak av de underleverandørene som er nødvendige for å drive
-            tjenesten:
-          </p>
-          <p style={s.p}>
-            <strong style={{ color: 'var(--text)' }}>Supabase</strong> — database og
-            autentisering (EU-infrastruktur).{' '}
-            <strong style={{ color: 'var(--text)' }}>RevenueCat</strong> — håndtering
-            av abonnementsstatus.
+            med unntak av Supabase som brukes til database og autentisering
+            (EU-infrastruktur).
           </p>
           <p style={s.p}>
             Alle nettverkskall skjer over kryptert forbindelse (HTTPS).
@@ -183,7 +158,7 @@ export default function Privacy() {
             Opplysningene lagres så lenge du har en aktiv konto. Avinstallerer du
             appen, slettes lokalt lagrede data. Ønsker du å slette kontoen og alle
             tilknyttede data, send en e-post til{' '}
-            <a href="mailto:firma@agitera.no" style={s.link}>firma@agitera.no</a> så
+            <a href="mailto:trond@itrond.net" style={s.link}>trond@itrond.net</a> så
             behandler vi forespørselen innen 30 dager.
           </p>
         </Section>
@@ -191,9 +166,8 @@ export default function Privacy() {
         <Section title="Dine rettigheter (GDPR)">
           <p style={s.p}>
             Som registrert har du rett til innsyn i, korrigering av og sletting av
-            opplysningene vi har om deg. Du kan også protestere mot behandlingen eller
-            be om dataportabilitet. Ta kontakt på{' '}
-            <a href="mailto:firma@agitera.no" style={s.link}>firma@agitera.no</a> for
+            opplysningene vi har om deg. Ta kontakt på{' '}
+            <a href="mailto:trond@itrond.net" style={s.link}>trond@itrond.net</a> for
             å benytte deg av disse rettighetene.
           </p>
           <p style={s.p}>
@@ -213,8 +187,8 @@ export default function Privacy() {
 
         <Section title="Endringer i denne erklæringen">
           <p style={s.p}>
-            Vi kan oppdatere denne erklæringen ved behov. Vesentlige endringer varsles
-            i appen. Datoen øverst på siden viser når erklæringen sist ble revidert.
+            Vi kan oppdatere denne erklæringen ved behov. Datoen øverst på siden
+            viser når erklæringen sist ble revidert.
           </p>
         </Section>
 

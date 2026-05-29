@@ -36,7 +36,7 @@ export default function Footer() {
         <nav style={{ display: 'flex', gap: '28px', flexWrap: 'wrap' }}>
           {[
             { label: 'Kategorier', href: '/#kategorier' },
-            { label: 'Kontakt', href: 'mailto:firma@agitera.no' },
+            { label: 'Kontakt', href: 'mailto:trond@itrond.net' },
             { label: 'Personvern', href: '/privacy' },
           ].map(({ label, href }) => (
             <a key={label} href={href} style={{
