@@ -7,6 +7,7 @@ import HowItWorks from './components/HowItWorks'
 import Stats from './components/Stats'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
+import Privacy from './pages/Privacy'
 
 function useReveal() {
   useEffect(() => {
@@ -20,7 +21,7 @@ function useReveal() {
   }, [])
 }
 
-export default function App() {
+function HomePage() {
   useReveal()
   return (
     <div style={{ position: 'relative' }}>
@@ -34,4 +35,10 @@ export default function App() {
       <Footer />
     </div>
   )
+}
+
+export default function App() {
+  const path = window.location.pathname
+  if (path === '/privacy') return <Privacy />
+  return <HomePage />
 }

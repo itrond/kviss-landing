@@ -34,8 +34,12 @@ export default function Footer() {
         </div>
 
         <nav style={{ display: 'flex', gap: '28px', flexWrap: 'wrap' }}>
-          {['Kategorier', 'Om oss', 'Kontakt', 'Personvern'].map(link => (
-            <a key={link} href="#" style={{
+          {[
+            { label: 'Kategorier', href: '/#kategorier' },
+            { label: 'Kontakt', href: 'mailto:firma@agitera.no' },
+            { label: 'Personvern', href: '/privacy' },
+          ].map(({ label, href }) => (
+            <a key={label} href={href} style={{
               fontFamily: 'var(--font-body)',
               fontSize: '13px',
               color: 'var(--text-dim)',
@@ -45,7 +49,7 @@ export default function Footer() {
               onMouseEnter={e => (e.currentTarget.style.color = 'var(--text-mid)')}
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--text-dim)')}
             >
-              {link}
+              {label}
             </a>
           ))}
         </nav>
